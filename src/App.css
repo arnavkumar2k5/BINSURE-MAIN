@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nerko+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@font-face {
+  font-family: 'Cunia';
+  src: url('./Cunia.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans';
+}
+
+#ca{
+  font-family: 'Caveat';
+}
+
+body{
+  background-color: white;
+  overflow-x: hidden;
+  color: #073141;
+}
+
+.form-input{
+  border: 2px solid gray;
+  border-radius: 3rem;
+  padding: 1rem;
+  background-color: whitesmoke;
+}
+
+#bi{
+  font-family: 'Cunia', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}

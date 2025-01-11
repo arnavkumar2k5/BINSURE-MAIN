@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        },
+        "jsx": "react-jsx", // For React 17+ JSX support
+        "moduleResolution": "node", // Ensure Node.js style module resolution
+        "esModuleInterop": true, // For better compatibility with CommonJS modules
+        "skipLibCheck": true // Skips type checking for declaration files to improve performance
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ], // Ensure TypeScript includes all source files
+    "exclude": [
+        "node_modules"
+    ] // Exclude unnecessary files/folders
+}
