@@ -70,11 +70,15 @@ function QuoteForm({ onClose }) {
         console.log("[Server Communication] Form submitted successfully!");
       } else {
         console.error("[Server Communication Error]:", result.message);
-        alert(result.message || "Something went wrong while submitting the form.");
+        alert(
+          result.message || "Something went wrong while submitting the form."
+        );
       }
     } catch (error) {
       console.error("[Server Communication Error]:", error);
-      alert("An error occurred while submitting the form. Please try again later.");
+      alert(
+        "An error occurred while submitting the form. Please try again later."
+      );
     }
   };
 
@@ -124,8 +128,57 @@ function QuoteForm({ onClose }) {
                     className="bg-white focus:outline-none"
                     defaultValue="+40"
                   >
-                    <option value="+91">+91</option>
+                    <option value="+1">+1</option>
+                    <option value="+7">+7</option>
+                    <option value="+20">+20</option>
+                    <option value="+27">+27</option>
+                    <option value="+30">+30</option>
+                    <option value="+31">+31</option>
+                    <option value="+32">+32</option>
+                    <option value="+33">+33</option>
+                    <option value="+34">+34</option>
+                    <option value="+36">+36</option>
+                    <option value="+39">+39</option>
                     <option value="+40">+40</option>
+                    <option value="+44">+44</option>
+                    <option value="+45">+45</option>
+                    <option value="+46">+46</option>
+                    <option value="+47">+47</option>
+                    <option value="+48">+48</option>
+                    <option value="+49">+49</option>
+                    <option value="+51">+51</option>
+                    <option value="+52">+52</option>
+                    <option value="+53">+53</option>
+                    <option value="+54">+54</option>
+                    <option value="+55">+55</option>
+                    <option value="+56">+56</option>
+                    <option value="+57">+57</option>
+                    <option value="+58">+58</option>
+                    <option value="+60">+60</option>
+                    <option value="+61">+61</option>
+                    <option value="+62">+62</option>
+                    <option value="+63">+63</option>
+                    <option value="+64">+64</option>
+                    <option value="+65">+65</option>
+                    <option value="+66">+66</option>
+                    <option value="+81">+81</option>
+                    <option value="+82">+82</option>
+                    <option value="+84">+84</option>
+                    <option value="+86">+86</option>
+                    <option value="+90">+90</option>
+                    <option value="+91">+91</option>
+                    <option value="+92">+92</option>
+                    <option value="+93">+93</option>
+                    <option value="+94">+94</option>
+                    <option value="+95">+95</option>
+                    <option value="+98">+98</option>
+                    <option value="+211">+211</option>
+                    <option value="+212">+212</option>
+                    <option value="+213">+213</option>
+                    <option value="+216">+216</option>
+                    <option value="+218">+218</option>
+                    <option value="+220">+220</option>
+                    <option value="+220">+236</option>
                   </select>
                   <input
                     type="tel"
@@ -142,13 +195,18 @@ function QuoteForm({ onClose }) {
                 Get a Free Quote
               </button>
               <p className="text-sm text-start text-gray-500 mt-4">
-                I agree to <span className="underline">Terms of Service</span> and{" "}
-                <span className="underline">Privacy Policy</span> when getting a free quote from
+                I agree to <span className="underline">Terms of Service</span>{" "}
+                and <span className="underline">Privacy Policy</span> when
+                getting a free quote from
               </p>
             </form>
           </div>
           <div className="hidden md:block relative right-[-5px] ">
-            <img src="health.png" alt="health" className="h-[70vh] object-cover" />
+            <img
+              src="health.png"
+              alt="health"
+              className="h-[70vh] object-cover"
+            />
           </div>
           <div className="absolute right-[-2%] top-[-2%]">
             <button
@@ -167,10 +225,17 @@ function QuoteForm({ onClose }) {
           >
             ✖
           </button>
-          <h2 className="text-4xl font-semibold text-gray-700 mb-4">You're all set</h2>
-          <img src="done.png" alt="Thank You" className="h-32 w-32 object-cover mb-4" />
+          <h2 className="text-4xl font-semibold text-gray-700 mb-4">
+            You're all set
+          </h2>
+          <img
+            src="done.png"
+            alt="Thank You"
+            className="h-32 w-32 object-cover mb-4"
+          />
           <p className="text-gray-600 mb-6">
-            Thank you for sharing the details, Our Advisor will get back to you shortly!
+            Thank you for sharing the details, Our Advisor will get back to you
+            shortly!
           </p>
           <button
             onClick={handleHomeRedirect}
