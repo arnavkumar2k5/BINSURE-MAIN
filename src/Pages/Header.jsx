@@ -225,7 +225,7 @@ function Header() {
               </li>
             ))}
             <li
-              className="hidden md:block bg-[#24BBE3] hover:bg-cyan-400 text-white p-3 pl-7 rounded-xl cursor-pointer"
+              className="hidden md:block bg-[#24BBE3] hover:bg-cyan-400 text-white p-3 pl-7 pr-7 rounded-xl cursor-pointer"
               onClick={() => {
                 headingClick("Get a Quote");
                 handleOpenQuoteForm();

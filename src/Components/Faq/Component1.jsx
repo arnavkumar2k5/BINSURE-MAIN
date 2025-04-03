@@ -66,7 +66,7 @@ function Component1() {
               <p className="text-sm md:text-lg font-semibold text-gray-800">
                 {item.heading}
               </p>
-              <p>{openIndex === index ? <span>&#9650;</span> : <span>&#9660;</span>}</p>
+              <p>{openIndex === index ?  <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p>
             </div>
 
             {openIndex === index && (

@@ -92,7 +92,7 @@ function Component6() {
               >
                 How is different from other life insurance agents?{" "}
                 <div>
-                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
+                  {openQuestion === 2 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </div>
               {openQuestion === 2 && (
@@ -109,7 +109,7 @@ function Component6() {
               >
                 What types of insurance does offer?{" "}
                 <div>
-                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
+                  {openQuestion === 3 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </button>
               {openQuestion === 3 && (
@@ -128,7 +128,7 @@ function Component6() {
                   Wouldn't it be cheaper to buy coverage directly from an insurance provider or my bank?
                 </div>
                 <div>
-                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-6"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-6"/>}
+                  {openQuestion === 4 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-6"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-6"/>}
                 </div>
               </button>
               {openQuestion === 4 && (
@@ -145,7 +145,7 @@ function Component6() {
               >
                 Do I pay fees to use ?
                 <div>
-                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
+                  {openQuestion === 5 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </button>
               {openQuestion === 5 && (
