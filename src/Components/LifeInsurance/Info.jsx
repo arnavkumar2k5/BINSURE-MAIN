@@ -34,7 +34,7 @@ function Info() {
       </div>
       <div className="mt-8">
         <span className="p-3 sm:p-4 md:p-5 md:pl-[3.5rem] cursor-pointer hover:bg-cyan-600 hover:text-white md:pr-[3.5rem] text-sm sm:text-base md:text-xl border-2 rounded-md bg-white text-cyan-600 font-bold border-cyan-600">
-          How It Works
+        Get Instant Quote
         </span>
       </div>
     </div>

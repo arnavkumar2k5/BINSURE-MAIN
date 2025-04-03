@@ -18,6 +18,7 @@ function Sitemap() {
                                 <li><a href="/contact" className="underline underline-offset-2 hover:text-cyan-400">Contact Us</a></li>
                                 <li><a href="/how" className="underline underline-offset-2 hover:text-cyan-400">How It Works</a></li>
                                 <li><a href="/faq" className="underline underline-offset-2 hover:text-cyan-400">FAQs</a></li>
+                                <li><a href="/faq" className="underline underline-offset-2 hover:text-cyan-400">Blog</a></li>
                                 <li><a href="/term" className="underline underline-offset-2 hover:text-cyan-400">Terms Of Use</a></li>
                                 <li><a href="/policy" className="underline underline-offset-2 hover:text-cyan-400">Privacy Policy</a></li>
                             </ul>
@@ -53,7 +54,7 @@ function Sitemap() {
                     </div>
                 </div>
             </div>
-            <Coverage />
+            <Component9 />
         </div>
     );
 }

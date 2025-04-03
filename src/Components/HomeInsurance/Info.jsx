@@ -12,7 +12,8 @@ function Info() {
         </div>
       </div>
       <div className="text-sm sm:text-base text-justify md:text-lg">
-      Get a free online quote1 for coverage to protect you, your
+      Get a free online quote<span className="underline cursor-pointer" onClick={() => window.open("https://www.rbcinsurance.com/en-ca/home-insurance/#legal-1", "_blank")}
+  >1</span> for coverage to protect you, your
         <div>property, and your belongings from the unexpected.</div>
       </div>
       <div className="text-sm sm:text-base md:text-lg text-start p-2 flex flex-col md:flex-row md:mr-44 mr-10">
@@ -33,7 +34,7 @@ function Info() {
       </div>
       <div className="mt-8">
         <span className="p-3 sm:p-4 md:p-5 md:pl-[3.5rem] cursor-pointer hover:bg-cyan-600 hover:text-white md:pr-[3.5rem] text-sm sm:text-base md:text-xl border-2 rounded-md bg-white text-cyan-600 font-bold border-cyan-600">
-          How It Works
+        Get Instant Quote
         </span>
       </div>
     </div>

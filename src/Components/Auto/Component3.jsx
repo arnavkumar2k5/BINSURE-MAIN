@@ -36,7 +36,7 @@ function Component3() {
         <div className="border-2 border-gray-200 rounded-sm p-5 text-start flex flex-col w-full sm:w-[30%]">
           <div className="text-xl md:text-2xl font-semibold mb-5 pt-5 text-black">Replacement cost</div>
           <p>
-            Roadside assistance entitles your business to four service calls per year, per covered vehicle of 4,500 kg or less, from these options
+          Replacement cost coverage protects the value of your vehicle if it needs to be replaced because it was stolen or damaged beyond repair.
           </p>
           <div className="flex justify-end md:mt-[4.2rem]">
             <img src="/Auto/img4.png" alt="farmer" className="h-20" />

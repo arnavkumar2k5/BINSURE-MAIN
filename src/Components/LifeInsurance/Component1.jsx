@@ -17,11 +17,21 @@ function Component1() {
             Insurance for Life and terms
           </div>
           <div>
-            We like to hope for the best, but preparing for the worst has its perks too. Because mortgages, education costs, medical costs, and other bills - <div>they'll still be there after you're gone.</div>
-            Life insurance provides whomever you choose with a one-time, tax-free payment when you die, as long as you continue to pay your premiums.
+            We like to hope for the best, but preparing for the worst has its perks too.
+            <br /> 
+            Because mortgages, education costs, medical costs, and other bills - <div>they'll still be there after you're gone.</div>
+            Life insurance provides whomever you choose with a one-time, tax-free 
+            <br />
+            payment when you die, as long as you continue to pay your premiums.
           </div>
           <div className="pr-0 md:pr-5">
-            There are different types of life insurance, and different ways to make it work for you. It's not only to protect your family. It can also be part of your financial plan, so you may be able to access money in your policy while you're alive. Loved ones might use this amount to:
+            There are different types of life insurance, and different ways to make it
+            <br />
+            work for you. It's not only to protect your family. It can also be part of your 
+            <br />
+            financial plan, so you may be able to access money in your policy while 
+            <br />
+            you're alive. Loved ones might use this amount to:
             <ul className="list-disc pl-5">
               <li>replace your income to allow family to maintain their standard of living</li>
               <li>provide for your children or dependents</li>

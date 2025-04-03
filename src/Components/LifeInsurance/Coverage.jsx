@@ -6,11 +6,11 @@ function Coverage() {
 
       <div className="text-white text-left pt-10 md:pt-0 md:pl-40 w-full">
         <h2 className="text-[16px] md:text-2xl font-semibold">
-          Ready to Start? Let’s Get a Quote!
+        Simple coverage you can trust
         </h2>
-        <p className="mt-4 text-[12px] md:text-sm text-start"> Getting business insurance shouldn’t be complicated! <br className="md:block hidden" />As , we simplify the process of getting insurance <br className="md:block hidden" /> so that you get the coverage you need, quick and easy!</p>
+        <p className="mt-4 text-[12px] md:text-sm text-start">Our team is always up for dishing out more details.</p>
         <button className="mt-6 px-2 md:px-5 text-sm md:text-xl p-2 border-2 rounded-lg border-white text-white hover:bg-white hover:text-teal-900 transition-all">
-          Get a free quote
+        Schedule a call
         </button>
       </div>
       <div className="flex justify-end w-full md:pr-40 ">

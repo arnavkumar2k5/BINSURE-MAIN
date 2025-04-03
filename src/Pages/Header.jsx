@@ -42,7 +42,6 @@ function Header() {
   const headingClick = (heading, e) => {
     if (e) e.preventDefault();
     setSelectedHeading(heading);
-    closeAllDropdowns();
   };
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -50,15 +49,26 @@ function Header() {
   const toggleDropdown = (menu) => {
     setDropdowns((prevDropdowns) => ({
       ...prevDropdowns,
-      individual: false,
-      commercial: false,
-      support: false,
-      [menu]: !prevDropdowns[menu],
+      individual: menu === "individual" ? !prevDropdowns.individual : false,
+      commercial: menu === "commercial" ? !prevDropdowns.commercial : false,
+      support: menu === "support" ? !prevDropdowns.support : false,
     }));
   };
 
   const closeAllDropdowns = () => {
     setDropdowns({ individual: false, commercial: false, support: false });
+  };
+
+  const handleSubItemClick = (mainItem, subItem) => {
+    // First close dropdowns and then navigate
+    setDropdowns({ individual: false, commercial: false, support: false });
+    setIsOpen(false);
+    setSelectedHeading(mainItem.name);
+    
+    // Use setTimeout to ensure state updates before navigation
+    setTimeout(() => {
+      navigate(subItem.link);
+    }, 10);
   };
 
   const navItems = [
@@ -122,9 +132,10 @@ function Header() {
                     if (item.subMenu) {
                       toggleDropdown(item.name.toLowerCase());
                     } else {
-                      navigate(item.navPage);
+                      closeAllDropdowns();
+                      setIsOpen(false);
                       headingClick(item.name, e);
-                      toggleMenu();
+                      navigate(item.navPage);
                     }
                   }}
                 >
@@ -135,10 +146,9 @@ function Header() {
                     {item.subMenu.map((subItem) => (
                       <div
                         key={subItem.name}
-                        onClick={() => {
-                          navigate(subItem.link);
-                          headingClick(item.name);
-                          toggleMenu();
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleSubItemClick(item, subItem);
                         }}
                         className="cursor-pointer text-gray-600 hover:text-gray-800"
                       >
@@ -174,11 +184,14 @@ function Header() {
                 className="text-sm relative hidden md:flex hover:text-gray-500"
                 onClick={(e) => {
                   if (item.subMenu) {
+                    e.preventDefault();
+                    e.stopPropagation();
                     headingClick(item.name, e);
                     toggleDropdown(item.name.toLowerCase());
                   } else {
-                    navigate(item.navPage);
                     headingClick(item.name, e);
+                    closeAllDropdowns();
+                    navigate(item.navPage);
                   }
                 }}
               >
@@ -189,13 +202,17 @@ function Header() {
                   <div className="absolute h-[3px] bg-blue-500 w-full bottom-[-23px] left-0"></div>
                 )}
                 {item.subMenu && dropdowns[item.name.toLowerCase()] && (
-                  <div className="z-50 absolute top-[3rem] w-[13vw] left-0 bg-white shadow-lg p-4 rounded-lg">
+                  <div 
+                    className="z-50 absolute top-[3rem] w-[13vw] left-0 bg-white shadow-lg p-4 rounded-lg"
+                    onClick={(e) => e.stopPropagation()}
+                  >
                     {item.subMenu.map((subItem) => (
                       <a
                         key={subItem.name}
-                        onClick={() => {
-                          navigate(subItem.link);
-                          headingClick(item.name);
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          handleSubItemClick(item, subItem);
                         }}
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
@@ -208,13 +225,16 @@ function Header() {
               </li>
             ))}
             <li
-              className="hidden md:block bg-[#24BBE3] hover:bg-cyan-400 text-white p-3 pl-7 pr-7 rounded-xl cursor-pointer"
+              className="hidden md:block bg-[#24BBE3] hover:bg-cyan-400 text-white p-3 pl-7 rounded-xl cursor-pointer"
               onClick={() => {
                 headingClick("Get a Quote");
                 handleOpenQuoteForm();
               }}
             >
               Get a Quote
+            </li>
+            <li>
+              <img src="find.png" alt="search" className="h-5 border-l-2 pl-2" />
             </li>
           </ul>
         </div>

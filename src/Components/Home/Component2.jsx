@@ -42,7 +42,7 @@ function Component2() {
             <p className="font-bold">Policy Options</p>
             <p>We pick the best products for you</p>
             <p>from Canada's top insurance</p>
-            <p>providers</p>
+            <p>providers.</p>
           </p>
           <div className="self-end">
             <img src="/Home/img5.png" alt="img" className="h-20" />

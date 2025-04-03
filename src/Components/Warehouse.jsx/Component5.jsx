@@ -2,7 +2,7 @@ import React from "react";
 
 function Component5() {
   return (
-    <div className="bg-white md:pt-40 md:pb-40 md:p-20 mt-5">
+    <div className="bg-white md:pt-10 md:pb-40 md:p-20 mt-5">
       <div className="m-auto flex flex-col gap-10 md:gap-28 p-5 md:p-10 md:px-20">
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="w-full md:w-[50%] flex flex-col gap-5 text-[0.8rem] md:text-lg font-medium">

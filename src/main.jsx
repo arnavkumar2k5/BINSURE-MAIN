@@ -73,6 +73,10 @@ const router = createBrowserRouter([
         element: <Contact/>
       },
       {
+        path: '/careers',
+        element: <Contact/>
+      },
+      {
         path: '/boiler',
         element: <BoilerPlate/>
       },

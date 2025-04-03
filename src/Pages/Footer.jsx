@@ -19,7 +19,7 @@ function Footer() {
           <p className="text-lg font-medium">P.O. Box 9999, Station B</p>
           <p className="text-lg font-medium">Montreal, ON M5M 3R4</p>
           <p className="mt-6 text-lg font-medium">999-888-0000</p>
-          <p className="text-lg font-medium">care@b-insure.ca</p>
+          <p className="text-lg font-medium">care@binsure.ca</p>
         </div>
         <div className="flex sm:flex-row sm:text-left justify-between">
           <div className="flex flex-col sm:mr-20 mb-8 sm:mb-0">
@@ -41,8 +41,8 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/lifeInsurance" className="hover:underline">
-                  Insurance
+                <a href="/blog" className="hover:underline">
+                  Blog
                 </a>
               </li>
               <li>

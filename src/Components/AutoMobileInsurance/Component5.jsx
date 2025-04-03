@@ -2,8 +2,8 @@ import React from "react";
 
 function Component5() {
   return (
-    <div className="bg-white pt-5 pb-40">
-      <div className="flex flex-col justify-center items-center py-10 mx-auto w-[90%] gap-20 mt-40">
+    <div className="bg-white pt-0 pb-28">
+      <div className="flex flex-col justify-center items-center py-10 mx-auto w-[90%] gap-20 mt-0">
         <div className="text-lg text-center">
           <div className="md:text-3xl font-bold">Find the right coverage for your vehicle</div>
           <p className="text-sm max-w-[47rem] mx-auto mt-5 font-medium">

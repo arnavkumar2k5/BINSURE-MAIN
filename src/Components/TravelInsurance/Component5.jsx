@@ -51,7 +51,7 @@ function Component5() {
             </p>
             <div className="flex justify-between mt-5 md:mt-[1.7rem] font-semibold">
                 <div>Check out offers <p className="text-[#24BBE3] inline">&#62;</p></div>
-              <img src="/travel/img3.png" alt="farmer" className="h-16" />
+              <img src="/travel/img3.png" alt="farmer" className="h-16 mt-7" />
             </div>
           </div>
         </div>

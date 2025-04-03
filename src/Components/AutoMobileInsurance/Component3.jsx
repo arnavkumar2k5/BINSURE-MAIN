@@ -6,7 +6,7 @@ function Component3() {
             <div className='self-start'>
             <div className='text-xl md:text-3xl font-bold mb-10'>
             Factors that affect your car 
-            <div>insurance quotes.</div>
+            <div>insurance quotes</div>
             </div>
             <p>Insurance companies consider many factors when calculating your insurance rate.</p>
             </div>

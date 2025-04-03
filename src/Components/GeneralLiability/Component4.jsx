@@ -24,9 +24,6 @@ function Component4() {
             What happens next?
             <p className='font-normal'>The client successfully sues your business for bodily injury. Your CGL coverage may cover the legal expenses and medical fees, totalling $25,000.</p>
           </div>
-          <div className="flex justify-end items-end self-end md:justify-start mt-10 mb-10 bg-[#24BBE3] w-[30%] rounded-lg px-2">
-            <img src="/General/img9.png" alt="farmer" className="h-20" />
-          </div>
         </div>
         <div className=" rounded-sm p-5 text-start flex flex-col w-full sm:w-[25%] border-2 md:border-none">
           <div className="hidden md:flex  justify-center md:justify-start mb-10 bg-[#24BBE3] w-[30%] rounded-lg px-2">
@@ -42,9 +39,6 @@ function Component4() {
             What happens next?
             <p className='font-normal'> Your CGL coverage policy covers the cost to repair the floors, totalling $10,000 in damages.</p>
           </div>
-          <div className="flex justify-end items-end self-end md:justify-start mt-10 mb-10 bg-[#24BBE3] w-[30%] rounded-lg px-2">
-            <img src="/General/img10.png" alt="farmer" className="h-20" />
-          </div>
         </div>
         <div className=" rounded-sm p-5 text-start flex flex-col w-full sm:w-[25%] border-2 md:border-none">
           <div className="hidden md:flex  justify-center md:justify-start mb-10 bg-[#24BBE3] w-[30%] rounded-lg px-2">
@@ -59,9 +53,6 @@ function Component4() {
           <div className='mt-[5.1rem] font-semibold'>
             What happens next?
             <p className='font-normal'>The customer successfully sues you for bodily injury. Your CGL policy covers the medical expenses and legal fees, totalling $15,000.</p>
-          </div>
-          <div className="flex justify-end items-end self-end md:justify-start mt-10 mb-10 bg-[#24BBE3] w-[30%] rounded-lg px-2">
-            <img src="/General/img11.png" alt="farmer" className="h-20" />
           </div>
         </div>
       </div>

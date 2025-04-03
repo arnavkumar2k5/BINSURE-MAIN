@@ -22,7 +22,7 @@ function Component7() {
       <div className="md:w-[60%] flex flex-col gap-5">
         <div className="text-lg md:text-3xl font-semibold">4 Ways to Avoid a Commercial <div>General Liability Insurance Claim</div></div>
         <p className="font-medium text-lg">Preventative measures in your business can help you avoid time and money spent on claims details and lawyer visits. Below we cover ways to avoid having a claim submitted against you.</p>
-        <ul className="list-disc pl-5 flex flex-col gap-3">
+        <ul className="list-disc pl-5 flex flex-col gap-3 space-y-1">
             <li><b>Maintain Safety Standards:</b> While you can’t always prevent accidents, there are ways to reduce injuries and property damage from happening in your business.</li>
             <li><b>Train Employees: </b> Make sure your employees are familiar with your organization’s business standards. This includes how they present your business online.</li>
             <li><b>Content Usage:</b> It’s important that business owners are careful about what they say and post about their clients or competitors. </li>

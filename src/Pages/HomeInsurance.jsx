@@ -34,9 +34,9 @@ function HomeInsurance() {
             <div>
                 <Component5 />
             </div>
-            <div>
+            {/* <div>
                 <Coverage />
-            </div>
+            </div> */}
             {/* <div>
                 <Component3 />
             </div> */}

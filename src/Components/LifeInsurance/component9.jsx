@@ -4,7 +4,7 @@ function Component9() {
   return (
     <div className="bg-blue-500 flex flex-col md:flex-row p-10 justify-center text-white text-sm gap-10 md:gap-40">
       <div className="text-start">
-        <p className="text-lg md:text-2xl font-semibold pb-5 text-start">Change insurance for good</p>
+        <p className="text-lg md:text-2xl font-semibold pb-5 text-start">Changing way of insurance for good</p>
         <p className="text-start">
           Join the team that is making health insurance simple, transparent, and
           human.

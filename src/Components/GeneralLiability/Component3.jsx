@@ -29,7 +29,7 @@ function Component3() {
                   <p>
                   If your business causes damage to a third-party’s property I.e., client’s home, office or at your business premises, this type of CGL coverage will cover lawyer fees and other expenses if you’re sued.
                   </p>
-                  <div className="flex justify-end md:mt-[1.8rem]">
+                  <div className="flex justify-end md:mt-[2rem]">
                     <img src="/Warehouse/img3.png" alt="farmer" className="h-20" />
                   </div>
                 </div>
@@ -38,7 +38,7 @@ function Component3() {
                   <p>
                   Product liability covers you for any injuries or property damage caused by a product you sell or service you provide. 
                   </p>
-                  <div className="flex justify-end md:mt-[5.5rem]">
+                  <div className="flex justify-end md:mt-[5.48rem]">
                     <img src="/Warehouse/img5.png" alt="farmer" className="h-20" />
                   </div>
                 </div>
@@ -56,7 +56,7 @@ function Component3() {
                   <p>
                   Tenant insurance, also called tenant’s legal liability, covers you from the risk of operating on leased premises. Your CGL insurance can cover you for damage to rental spaces caused by you or your employees. 
                   </p>
-                  <div className="flex justify-end md:mt-[1rem]">
+                  <div className="flex justify-end md:mt-[2.6rem]">
                     <img src="/General/img6.png" alt="farmer" className="h-20" />
                   </div>
                 </div>

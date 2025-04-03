@@ -19,7 +19,7 @@ function Component2() {
             The top priority is making sure your health is in order. With  Travel Protection, you can have access to quality healthcare during your trip overseas in the event of unexpected medical emergencies.
             </p>
             <div className="flex justify-end">
-              <img src="/travel/security.png" alt="farmer" className="h-16 md:h-16" />
+              <img src="/travel/security.png" alt="farmer" className="h-16 md:h-16 mt-6" />
             </div>
           </div>
 
@@ -41,7 +41,7 @@ function Component2() {
             evacuation and repatriation.
             </p>
             <div className="flex justify-end mt-14">
-              <img src="/travel/call.png" alt="advisor" className="h-14 md:h-[3.5rem]" />
+              <img src="/travel/call.png" alt="advisor" className="h-14 md:h-[3.5rem] mt-6" />
             </div>
           </div>
 
@@ -51,7 +51,7 @@ function Component2() {
             Offers coverage for your belongings with assistance against lost or delayed baggage.
             </p>
             <div className="flex justify-end">
-              <img src="/travel/baggage.png" alt="security" className="h-14 md:h-16 mt-5 md:mt-16" />
+              <img src="/travel/baggage.png" alt="security" className="h-14 md:h-16 mt-5 md:mt-[4.3rem]" />
             </div>
           </div>
           <div className="border-2 border-gray-300 rounded-sm p-5 flex flex-col gap-5 md:h-96 md:gap-5 w-full md:w-[30%]">

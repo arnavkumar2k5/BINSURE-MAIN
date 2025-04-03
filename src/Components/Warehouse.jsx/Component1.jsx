@@ -39,7 +39,7 @@ function Component1() {
               <p className="text-[14px]">
                 We’re just a click away
               </p>
-              <div className="flex justify-end md:mt-[4.4rem] my-10">
+              <div className="flex justify-end md:mt-[7.9rem] my-10">
                 <img src="/Restaurant/img2.png" alt="farmer" className="h-16" />
               </div>
             </div>
@@ -49,7 +49,7 @@ function Component1() {
               <p className="text-[14px]">
                 Get only the coverage you need in clear language
               </p>
-              <div className="flex justify-end md:mt-[4.4rem] my-10">
+              <div className="flex justify-end md:mt-[6.1rem] my-10">
                 <img src="/Restaurant/img3.png" alt="farmer" className="h-16" />
               </div>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Component2() {
   return (
-    <div className="flex flex-col justify-center items-center py-10 mx-auto gap-20 px-5">
+    <div className="flex flex-col justify-center items-center py-10 mx-auto gap-10 px-5">
       <div className="text-lg text-center">
         <div className="text-xl md:text-3xl font-bold">Auto Insurance coverages </div>
         <p className="text-sm max-w-[47rem] mx-auto mt-10">

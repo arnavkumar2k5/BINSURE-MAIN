@@ -63,10 +63,10 @@ function Component5() {
           Frequently asked questions
         </div>
         <p className="md:w-[28rem] text-lg">
-          When you need help with insurance and claims, it's at the ready 24/7
+          When you need help with insurance and claims, it's at the ready 24/7.
         </p>
         <p className="font-semibold text-lg">
-          I have a different question <span>&#8594;</span>
+          I have a different question <img src="/arrow/arrow.png" alt="arrow" className="inline pl-2"/>
         </p>
       </div>
       <div className="flex flex-col w-full md:w-[60%] gap-5 mt-10">

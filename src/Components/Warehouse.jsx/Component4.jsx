@@ -2,7 +2,7 @@ import React from 'react'
 
 function Component4() {
   return (
-    <div className="flex flex-col justify-center items-center py-10 mx-auto gap-20 md:p-20 p-5">
+    <div className="flex flex-col justify-center items-center py-10 mx-auto gap-5 md:p-20 p-5">
       <div className="text-lg text-center">
         <div className="text-2xl md:text-3xl font-semibold">Common insurance claims scenarios</div>
         <p className="text-lg max-w-[47rem] mx-auto mt-10">
@@ -24,9 +24,6 @@ function Component4() {
             What happens next?
             <p className='font-normal'>Your equipment breakdown insurance may cover the cost to repair your refrigeration systems, and your commercial property insurance may pay to replace the spoiled perishable goods</p>
           </div>
-          <div className="flex justify-center md:justify-start mb-10 self-end my-10">
-            <img src="/Warehouse/img7.png" alt="farmer" className="h-20" />
-          </div>
         </div>
         <div className=" rounded-sm p-5 text-start flex flex-col w-full sm:w-[25%] border-2 md:border-none">
           <div className=" justify-center md:justify-start mb-10 hidden md:flex">
@@ -42,9 +39,6 @@ function Component4() {
             What happens next?
             <p className='font-normal'>Your warehouse property insurance may cover the cost to repair the damages to your warehouse and the business contents that were damaged up to your policy’s limit.</p>
           </div>
-          <div className="flex justify-center md:justify-start mb-10 self-end my-10">
-            <img src="/Warehouse/img8.png" alt="farmer" className="h-20" />
-          </div>
         </div>
         <div className=" rounded-sm p-5 text-start flex flex-col w-full sm:w-[25%] border-2 md:border-none">
           <div className=" justify-center md:justify-start mb-10 hidden md:flex">
@@ -59,9 +53,6 @@ function Component4() {
           <div className='mt-[5.1rem] font-semibold'>
             What happens next?
             <p className='font-normal'>Your cyber liability insurance may pay to provide you with funds for legal advice, restoration of damaged software, crisis management services, credit monitoring, and customer notification fees.</p>
-          </div>
-          <div className="flex justify-center md:justify-start mb-10 self-end my-10">
-            <img src="/Warehouse/img9.png" alt="farmer" className="h-20" />
           </div>
         </div>
       </div>

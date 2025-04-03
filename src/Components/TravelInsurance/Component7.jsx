@@ -12,7 +12,7 @@ function Component7() {
       question: "What is a Travel Insurance?",
       answer: `Travel insurance is coverage designed to protect against risks and financial losses 
       that could happen while traveling. The risks range from minor inconveniences 
-      such as delayed or lost bags and trip cancellations, to medical emergencies.`,
+      such as delayed or lost bags and trip cancellations, to medical emergencies while outside your province of residence or Canada.`,
     },
     {
       question: "What is not covered by travel insurance?",
@@ -38,8 +38,14 @@ function Component7() {
     },
     {
       question: "Does applying for travel insurance need a medical record check?",
-      answer: `When applying for travel insurance, your broker will ask if you have any pre-existing conditions. 
-      While having a pre-existing condition doesn't exclude coverage, it may limit coverage for medical emergencies.`,
+      answer: (
+        <div>
+          When you apply to get travel insurance, your broker will ask you if you have any pre-existing conditions. Having a pre-existing condition does not mean that you cannot be covered, however, it could limit your coverage for medical emergencies if your condition in not stable. 
+          <br/>
+          <br/>
+          In fact, before leaving on a trip, your condition must be stable based on a series of factors defined in a stability clause in order to be covered. If you have a pre-existing condition and if you have any questions, let your broker know.
+        </div>
+    ),
     },
     {
       question: "How much does Travel Insurance cost for Canada?",
@@ -67,10 +73,10 @@ function Component7() {
           Frequently asked questions
         </div>
         <p className="md:w-[28rem] text-sm md:text-lg ">
-          When you need help with insurance and claims, it's at the ready 24/7
+          When you need help with insurance and claims, it's at the ready 24/7.
         </p>
         <p className="font-semibold text-sm md:text-lg ">
-          I have a different question <span>&#8594;</span>
+          I have a different question <img src="/arrow/arrow.png" alt="arrow" className="inline pl-2"/>
         </p>
       </div>
       <div className="flex flex-col w-full md:w-[60%] gap-5 mt-10">

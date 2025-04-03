@@ -42,16 +42,16 @@ function Component6() {
   ];
 
   return (
-    <div className="flex flex-col p-5 md:flex-row justify-center md:pt-40 m-auto md:pb-40 md:p-40">
+    <div className="flex flex-col p-5 md:flex-row justify-center md:pt-20 m-auto md:pb-40 md:p-40">
       <div className="text-sm flex flex-col gap-5 md:pt-10">
         <div className="text-xl md:text-3xl font-bold md:w-[45rem]">
           Frequently asked questions
         </div>
         <p className="md:w-[28rem] text-lg">
-          When you need help with insurance and claims, it's at the ready 24/7
+          When you need help with insurance and claims, it's at the ready 24/7.
         </p>
         <p className="font-semibold text-lg">
-          I have a different question <span>&#8594;</span>
+          I have a different question <img src="/arrow/arrow.png" alt="arrow" className="inline pl-2"/>
         </p>
       </div>
       <div className="flex flex-col w-full md:w-[60%] gap-5 mt-10">

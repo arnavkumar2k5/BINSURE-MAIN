@@ -17,7 +17,7 @@ function Component3() {
           <p>
             Provide Liability Insurance to new and existing restaurants, delis and cafés.
           </p>
-          <div className="flex justify-end md:mt-[4.4rem]">
+          <div className="flex justify-end md:mt-[5rem]">
             <img src="/Warehouse/img3.png" alt="farmer" className="h-16" />
           </div>
         </div>
@@ -37,7 +37,7 @@ function Component3() {
           <p>
             If a product stored in a warehouse is found to be defective and causes harm to consumer, the warehouse can be held liable.
           </p>
-          <div className="flex justify-end my-10 md:mt-[2rem]">
+          <div className="flex justify-end my-10 md:mt-[1.95rem]">
             <img src="/Warehouse/img5.png" alt="farmer" className="h-16" />
           </div>
         </div>
@@ -46,7 +46,7 @@ function Component3() {
           <p>
             If a warehouse fails to fulfill its obligations under a contract, it can be sued for breach of contract.
           </p>
-          <div className="flex justify-end my-10 md:mt-[3rem]">
+          <div className="flex justify-end my-10 md:mt-[3.45rem]">
             <img src="/Warehouse/img6.png" alt="farmer" className="h-16" />
           </div>
         </div>

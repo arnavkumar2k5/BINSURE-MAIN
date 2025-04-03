@@ -7,8 +7,11 @@ function Coverage() {
         <h2 className="text-xl md:text-2xl font-semibold">
         Need Insurance answers
         </h2>
-        <p className="mt-4 text-sm md:w-[32rem]">
-        Chat with our licensed advisors right away, or book some time with them.
+        <p className="mt-4 text-sm md:w-[45rem]">
+          <span className="block pb-1">
+        Chat with our licensed advisors right away, or book some time 
+          </span>
+        with them.
         </p>
         <button className="mt-6 px-5 text-lg md:text-xl p-2 border-2 rounded-lg border-white text-white hover:bg-white hover:text-teal-900 transition-all">
           Schedule a call

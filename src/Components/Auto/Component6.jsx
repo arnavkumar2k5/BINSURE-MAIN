@@ -3,7 +3,7 @@ import React from "react";
 function Component6() {
   return (
     <div className="bg-white">
-      <div className="m-auto flex flex-col gap-10 md:gap-28 p-5 md:p-10 md:px-40 pb-20">
+      <div className="m-auto flex flex-col gap-10 md:gap-28 p-5 md:p-10 md:px-20 pb-20">
         <div className="flex flex-col-reverse md:flex-row justify-center gap-10 md:gap-24 items-center">
           <div className="w-full md:w-auto">
           <img
@@ -17,7 +17,7 @@ function Component6() {
               className="w-auto h-full md:h-[60vh] pl-0 md:pl-20 mt-5 object-cover hidden md:block"
             />
           </div>
-          <div className="w-full md:w-[43%] flex flex-col gap-10 text-[0.8rem] md:text-base font-medium">
+          <div className="w-full md:w-[50%] flex flex-col gap-10 text-[0.8rem] md:text-base font-medium">
             <div className="text-xl md:text-4xl font-bold md:text-left">
               How much does commercial auto insurance cost?
             </div>

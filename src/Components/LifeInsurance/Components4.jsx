@@ -11,7 +11,7 @@ function Components4() {
         <p>Each has unique features designed to meet different needs.</p>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center mt-10 md:mt-20 gap-5 md:gap-10 text-xs md:text-sm">
+      <div className="flex flex-wrap justify-center items-start mt-10 md:mt-20 gap-5 md:gap-10 text-xs md:text-sm">
         <div className="border-4 w-full md:w-[48%] border-gray-200 p-5 md:p-5 leading-6 font-normal">
           <p className="text-lg md:text-xl font-semibold mb-5">Term insurance</p>
           <p>
@@ -31,7 +31,7 @@ function Components4() {
           </div>
         </div>
 
-        <div className="border-4 w-full md:w-[48%] border-gray-200 p-5 md:p-5 leading-6 font-normal">
+        <div className="border-4 w-full md:w-[48%] border-gray-200 p-5 md:p-5 leading-6 font-normal md:pb-11">
           <p className="text-lg md:text-xl font-semibold mb-5 md:mb-8">Permanent insurance</p>
           <p>
             It's insurance coverage that lasts forever and never expires. There are three types of permanent life insurance: whole life, participating, and universal life.
@@ -51,7 +51,7 @@ function Components4() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-start gap-5 md:gap-20 mt-20 md:mt-40 w-full md:w-auto">
+      <div className="flex flex-col md:flex-row justify-between -ml-28 items-start gap-5 md:gap-20 mt-20 md:mt-20 w-full md:w-auto">
         <div className="text-xs md:text-sm text-left md:font-medium">
           <p className="text-xl md:text-3xl font-bold mb-5 md:mb-10">
             How to get life insurance
@@ -65,7 +65,7 @@ function Components4() {
           </button>
         </div>
 
-        <div className="text-xs md:text-sm text-left mt-5 md:mt-[4.8rem] md:font-medium">
+        <div className="text-xs md:text-sm text-left mt-5 md:mt-[4.8rem] ml-5 md:font-medium">
           <p className="inline md:block">Answer a few quick questions to get a quote for coverage up to</p>{" "}
           <p className="inline md:block">$1,000,000.</p>
           <button className="bg-cyan-500 block text-white mt-5 md:mt-[3.7rem] p-2 md:p-3 md:pl-5 md:pr-5 pl-5 pr-5 rounded-full">

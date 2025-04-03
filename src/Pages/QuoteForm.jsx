@@ -50,7 +50,7 @@ function QuoteForm({ onClose }) {
     const validationError = validateFormData(data);
     if (validationError) {
       console.error("[Validation Error]:", validationError);
-      alert(validationError); // Optional: Alert the user for better UX
+      console.log(validationError); // Optional: Alert the user for better UX
       return;
     }
 
@@ -70,13 +70,13 @@ function QuoteForm({ onClose }) {
         console.log("[Server Communication] Form submitted successfully!");
       } else {
         console.error("[Server Communication Error]:", result.message);
-        alert(
+        console.log(
           result.message || "Something went wrong while submitting the form."
         );
       }
     } catch (error) {
       console.error("[Server Communication Error]:", error);
-      alert(
+      console.log(
         "An error occurred while submitting the form. Please try again later."
       );
     }

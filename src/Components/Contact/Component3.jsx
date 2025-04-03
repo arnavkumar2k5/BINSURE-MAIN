@@ -2,7 +2,7 @@ import React from "react";
 
 function Component3() {
   return (
-    <div className="bg-white flex flex-col justify-center items-center px-2 md:px-6 pt-20 md:pt-36 gap-5 pb-20">
+    <div className="bg-white flex flex-col justify-center items-center px-2 md:px-6 pt-20 md:pt-28 gap-5 pb-20">
       <div>
         <div className="text-center mb-2 text-xl md:text-3xl font-bold">
           <p className="inline md:block">
@@ -11,7 +11,7 @@ function Component3() {
         </div>
       </div>
 
-      <div className="m-auto justify-center flex flex-col">
+      <div className="m-auto justify-center flex flex-col mt-10">
         <div className="flex flex-col md:flex-row justify-center gap-5 m-5 mt-0">
           <div className="flex flex-col bg-white rounded-md md:w-1/5 h-72 gap-5 pb-28 border-2 border-[#E0E0E0]">
             <div>

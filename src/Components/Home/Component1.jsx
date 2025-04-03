@@ -66,7 +66,7 @@ function Component1() {
 
     const validationError = validateFormData(formData);
     if (validationError) {
-      alert("Validation Error: " + validationError);
+      console.log("Validation Error: " + validationError);
       return;
     } else {
       // console.log("Form Data:", formData);
@@ -86,12 +86,12 @@ function Component1() {
 
       if (response.ok && result.success) {
         setIsQuoteSubmitted(true);
-        alert("Form submitted successfully!");
+        console.log("Form submitted successfully!");
       } else {
-        alert("Form submission failed:"+ result.message);
+        console.log("Form submission failed:"+ result.message);
       }
     } catch (error) {
-      alert("Form submission error:"+error);
+      console.log("Form submission error:"+error);
     }
   };
 

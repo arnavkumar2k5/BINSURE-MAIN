@@ -10,7 +10,7 @@ function Component2() {
         Learning about insurance and claims doesn’t have to be complicated. Read <p>on for some simple answers to the questions we hear most.</p>
       </p>
       <p className='block md:hidden text-center px-10 py-0 md:p-5 text-[14px]'>When you need help with insurance and claims, it’s at the ready 24/7.</p>
-      <p className='block md:hidden font-semibold'>I have a different question <p className='text-cyan-300 inline font-bold'>&gt;</p></p>
+      <p className='block md:hidden font-semibold'>I have a different question <img src="/arrow/arrow.png" alt="arrow" className="inline pl-2"/></p>
     </div>
   )
 }

@@ -16,7 +16,7 @@ function Component4() {
             <div className="text-lg font-semibold md:pr-10 md:mb-5">
             Partnered with top tier insurance provider
             </div>
-            <p>Purchase yourinsurance anytime, anywhere, with our easy-to-use online platform.</p>
+            <p>Purchase your insurance anytime, anywhere, with our easy-to-use online platform.</p>
             <div className="flex justify-end md:mt-16">
               <img src="/travel/hotel.png" alt="farmer" className="h-16" />
             </div>

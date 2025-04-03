@@ -3,7 +3,7 @@ import React from "react";
 function Component2() {
   return (
     <div className="bg-white">
-      <div className="flex flex-col justify-center items-center py-10 mx-auto w-[90%] gap-10 md:gap-20">
+      <div className="flex flex-col justify-center items-center py-36 mx-auto w-[90%] gap-10 md:gap-20">
         <div className="text-lg text-center">
           <div className="text-xl md:text-4xl font-bold">Why Choose</div>
           <p className="text-xs md:text-sm text-gray-600 max-w-[47rem] mx-auto mt-5">

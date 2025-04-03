@@ -17,7 +17,7 @@ function Component8() {
 
       <div className=" cardsSection flex flex-col md:flex-row justify-center gap-5 m-5 " >
         <div className="flex flex-col bg-white shadow-lg text-sm rounded-2xl md:w-1/3 gap-5 border-2 border-[#E0E0E0]">
-          <img src="/Home/img18.png" alt="img" className="object-cover rounded-t-2xl"/>
+          <img src="/Home/img17.png" alt="img" className="object-cover rounded-t-2xl"/>
           <p className="font-semibold pl-5 pt-1 text-lg">How to compare home insurance
           quotes</p>
           <p className="bg-[#498AC614] inline w-1/3 p-2 text-center text-xs rounded-full ml-5">Home insurance</p>
