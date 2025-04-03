@@ -203,7 +203,7 @@ function Header() {
                 )}
                 {item.subMenu && dropdowns[item.name.toLowerCase()] && (
                   <div 
-                    className="z-50 absolute top-[3rem] w-[13vw] left-0 bg-white shadow-lg p-4 rounded-lg"
+                    className="z-50 absolute top-[3rem] w-[13vw] left-0 bg-white shadow-lg p-4 rounded-lg cursor-pointer"
                     onClick={(e) => e.stopPropagation()}
                   >
                     {item.subMenu.map((subItem) => (

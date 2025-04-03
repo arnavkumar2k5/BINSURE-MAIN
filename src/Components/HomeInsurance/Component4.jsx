@@ -5,7 +5,7 @@ function Component4() {
     <div className="bg-white pt-10 md:pt-20 p-5 md:p-40">
       <div className="m-auto flex flex-col justify-center">
         <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-10 font-normal">
-          <div className="w-full md:w-1/2 flex flex-col gap-10 text-sm md:text-lg md:pr-12">
+          <div className="w-full md:w-1/2 flex flex-col gap-7 text-sm md:text-lg md:pr-12">
             <div className="text-lg md:text-2xl font-bold">
             How much Home Insurance do I need?
             </div>

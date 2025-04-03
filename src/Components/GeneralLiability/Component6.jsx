@@ -161,11 +161,11 @@ function Component6() {
               <p className="text-sm md:text-lg font-semibold text-gray-800">
                 {item.question}
               </p>
-              <p>
+              <p className="flex-shrink-0">
                 {openIndex === index ? (
-                  <span>&#9650;</span>
+                  <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/>
                 ) : (
-                  <span>&#9660;</span>
+                  <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>
                 )}
               </p>
             </div>

@@ -73,7 +73,7 @@ function Component6() {
                   What is B-Insure and how does it work?{" "}
                 </div>
                 <div className="inline">
-                  {openQuestion === 1 ? <span>&#9650;</span> : <span>&#9660;</span>}
+                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </div>
               {openQuestion === 1 && (
@@ -88,15 +88,16 @@ function Component6() {
             <div>
               <div
                 onClick={() => toggleQuestion(2)}
-                className="text-sm md:text-lg flex justify-between font-normal text-gray-800 cursor-pointer"
+                className="text-sm md:text-lg flex justify-between font-semibold text-gray-800 cursor-pointer"
               >
                 How is different from other life insurance agents?{" "}
                 <div>
-                  {openQuestion === 1 ? <span>&#9650;</span> : <span>&#9660;</span>}
+                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </div>
               {openQuestion === 2 && (
                 <div className="mt-2 bg-[#F5F5F5] p-4 rounded shadow">
+                  Our advisors provide personalized guidance tailored to your needs, unlike traditional agents who may offer generic plans. We prioritize transparency and flexibility, ensuring you get the best coverage without hidden fees.
                 </div>
               )}
             </div>
@@ -104,15 +105,16 @@ function Component6() {
             <div>
               <button
                 onClick={() => toggleQuestion(3)}
-                className="w-full text-sm md:text-lg flex justify-between font-normal text-gray-800 text-start cursor-pointer"
+                className="w-full text-sm md:text-lg flex justify-between font-semibold text-gray-800 text-start cursor-pointer"
               >
                 What types of insurance does offer?{" "}
                 <div>
-                  {openQuestion === 1 ? <span>&#9650;</span> : <span>&#9660;</span>}
+                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </button>
               {openQuestion === 3 && (
                 <div className="mt-2 bg-[#F5F5F5] p-4 rounded shadow">
+                  We offer life, health, and disability insurance, along with other financial protection plans. Our coverage ensures security for you and your loved ones.
                 </div>
               )}
             </div>
@@ -120,17 +122,18 @@ function Component6() {
             <div>
               <button
                 onClick={() => toggleQuestion(4)}
-                className="text-sm md:text-lg flex justify-between font-normal text-gray-800 cursor-pointer"
+                className="text-sm md:text-lg flex justify-between font-semibold text-gray-800 cursor-pointer"
               >
                 <div className="text-start">
                   Wouldn't it be cheaper to buy coverage directly from an insurance provider or my bank?
                 </div>
                 <div>
-                  {openQuestion === 1 ? <span>&#9650;</span> : <span>&#9660;</span>}
+                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-6"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-6"/>}
                 </div>
               </button>
               {openQuestion === 4 && (
                 <div className="mt-2 bg-[#F5F5F5] p-4 rounded shadow">
+                  Buying directly may seem cheaper, but our advisors help you find better coverage at competitive rates. We ensure personalized plans without hidden costs.
                 </div>
               )}
             </div>
@@ -138,21 +141,22 @@ function Component6() {
             <div>
               <button
                 onClick={() => toggleQuestion(5)}
-                className="w-full text-sm md:text-lg flex justify-between font-normal text-gray-800 cursor-pointer"
+                className="w-full text-sm md:text-lg flex justify-between font-semibold text-gray-800 cursor-pointer"
               >
                 Do I pay fees to use ?
                 <div>
-                  {openQuestion === 1 ? <span>&#9650;</span> : <span>&#9660;</span>}
+                  {openQuestion === 1 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}
                 </div>
               </button>
               {openQuestion === 5 && (
                 <div className="mt-2 bg-[#F5F5F5] p-4 rounded shadow">
+                  No, our services are free—you only pay for the insurance policy you choose. There are no hidden fees or extra charges.
                 </div>
               )}
             </div>
             <div className="mt-10">
               <a href="#" className="font-semibold  md:text-xl">
-                I have a different question <span className="text-cyan-400">&gt;</span>
+                I have a different question <span className="text-cyan-400 pl-1">&gt;</span>
               </a>
             </div>
           </div>

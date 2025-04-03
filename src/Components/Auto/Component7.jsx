@@ -29,7 +29,7 @@ function Component7() {
             <p className="text-sm md:text-base font-semibold text-gray-800">
               If I use my personal vehicle for work and get into an accident, will my personal car insurance policy pay for damages?
             </p>
-            <p>{openIndex === 0 ? <span>&#9650;</span> : <span>&#9660;</span>}</p>
+            <p className="flex-shrink-0">{openIndex === 0 ?  <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p>
           </div>
           {openIndex === 0 && (
             <div className="bg-[#F5F5F5] text-sm md:text-base p-5 rounded-2xl">
@@ -46,7 +46,7 @@ function Component7() {
             <p className="text-sm md:text-base font-semibold text-gray-800">
               What does general liability insurance cover?
             </p>
-            <p>{openIndex === 1 ?<span>&#9650;</span> : <span>&#9660;</span>}</p> 
+            <p>{openIndex === 1 ?<img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p> 
           </div>
           {openIndex === 1 && (
             <div className="bg-[#F5F5F5] text-sm md:text-base p-5 rounded-2xl">
@@ -81,7 +81,7 @@ function Component7() {
             <p className="text-sm md:text-base font-semibold text-gray-800">
               Are my tools covered under my commercial auto policy?
             </p>
-            <p>{openIndex === 2 ? <span>&#9650;</span> : <span>&#9660;</span>}</p> 
+            <p>{openIndex === 2 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p> 
           </div>
           {openIndex === 2 && (
             <div className="bg-[#F5F5F5] text-sm md:text-base p-5 rounded-2xl">
@@ -98,7 +98,7 @@ function Component7() {
             <p className="text-sm md:text-base font-semibold text-gray-800">
               Is a pickup truck considered a commercial vehicle?
             </p>
-            <p>{openIndex === 3 ? <span>&#9650;</span> : <span>&#9660;</span>}</p> 
+            <p>{openIndex === 3 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p> 
           </div>
           {openIndex === 3 && (
             <div className="bg-[#F5F5F5] text-sm md:text-base p-5 rounded-2xl">
@@ -115,7 +115,7 @@ function Component7() {
             <p className="text-sm md:text-base font-semibold text-gray-800">
               Any tips to get cheap Commercial Auto Insurance?
             </p>
-            <p>{openIndex === 4 ? <span>&#9650;</span> : <span>&#9660;</span>}</p>
+            <p>{openIndex === 4 ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p>
           </div>
           {openIndex === 4 && (
             <div className="bg-[#F5F5F5] text-sm md:text-base p-5 rounded-2xl">

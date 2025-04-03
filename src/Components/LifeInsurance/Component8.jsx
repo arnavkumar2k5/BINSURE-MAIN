@@ -25,7 +25,7 @@ function Component8() {
       para: "Life insurance gives your beneficiaries money they can use in any way they wish after you pass away. A life insurance claims payout can go towards mortgage payments, debts, education expenses, final expenses like funeral costs, medical or palliative care costs, and more. Life insurance can also provide the benefit upfront for terminal illness with a life expectancy of 12 months or less to live.",
     },
     {
-      heading:
+      heading: 
         "Can I 'cash out' or take money out of my life insurance policy before death in Canada?",
       para: "Some permanent life insurance policies may allow you to do this. Connect with an advisor for more detailed information.",
     },
@@ -75,7 +75,7 @@ function Component8() {
               <p className="text-sm md:text-lg font-semibold text-gray-800">
                 {item.heading}
               </p>
-              <p>{openIndex === index ? <span>&#9650;</span> : <span>&#9660;</span>}</p>
+              <p className="flex-shrink-0">{openIndex === index ? <img src="/arrow/uparrow.png" alt="up-arrow" className="w-4"/> : <img src="/arrow/downarrow.png" alt="down-arrow" className="w-4"/>}</p>
             </div>
 
             {openIndex === index && (
